@@ -12,6 +12,7 @@ class Webpacker::Configuration
   end
 
   def dev_server
+    binding.pry
     fetch(:dev_server)
   end
 
